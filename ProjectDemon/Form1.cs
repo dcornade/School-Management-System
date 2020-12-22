@@ -14,7 +14,7 @@ namespace ProjectDemon
     {
         public Form1()
         {    
-            this.MaximizedBounds = Screen.PrimaryScreen.WorkingArea;
+            
             InitializeComponent();
             if (this.WindowState == FormWindowState.Maximized)
             {
@@ -24,7 +24,6 @@ namespace ProjectDemon
             {
                 this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
             }
-
         }
 
         #region Min,max,close Windows
@@ -82,6 +81,8 @@ namespace ProjectDemon
             Application.Exit();
         }
         #endregion
+
+        #region Status Bar
         private void label5_MouseEnter(object sender, EventArgs e)
         {
             label5.Font = new Font(label5.Font, FontStyle.Underline|FontStyle.Bold);
@@ -101,5 +102,11 @@ namespace ProjectDemon
         {
             label1.Font = new Font(label1.Font, FontStyle.Bold);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/dcornade");
+        }
+        #endregion
     }
 }

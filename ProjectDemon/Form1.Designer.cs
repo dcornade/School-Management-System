@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Windows.Forms;
 
 namespace ProjectDemon
 {
@@ -31,6 +32,7 @@ namespace ProjectDemon
         /// </summary>
         private void InitializeComponent()
         {
+            this.MaximizedBounds = Screen.PrimaryScreen.WorkingArea;
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -176,6 +178,7 @@ namespace ProjectDemon
             this.label1.Size = new System.Drawing.Size(163, 16);
             this.label1.TabIndex = 9;
             this.label1.Text = "BrokenOwlCorporation";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             this.label1.MouseEnter += new System.EventHandler(this.label1_MouseEnter);
             this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
             // 
