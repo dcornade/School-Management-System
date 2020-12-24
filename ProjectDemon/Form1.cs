@@ -12,9 +12,15 @@ namespace ProjectDemon
 {
     public partial class Form1 : Form
     {
+        #region User-Created-Functions
+        void rescale()
+        {
+
+        }
+        #endregion
         public Form1()
-        {    
-            
+        {
+            this.MaximizedBounds = Screen.PrimaryScreen.WorkingArea;
             InitializeComponent();
             if (this.WindowState == FormWindowState.Maximized)
             {
@@ -108,5 +114,12 @@ namespace ProjectDemon
             System.Diagnostics.Process.Start("https://github.com/dcornade");
         }
         #endregion
+
+        private void panel7_SizeChanged(object sender, EventArgs e)
+        {
+            label6.Left = panel7.Width / 2 - label6.Width / 2;
+            label7.Left = panel7.Width / 2 - label7.Width / 2;
+            panel8.Left = panel7.Width / 2 - panel8.Width / 2;
+        }
     }
 }

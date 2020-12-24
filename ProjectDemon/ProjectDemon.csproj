@@ -95,5 +95,20 @@
   <ItemGroup>
     <None Include="Resources\close.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-Color-512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rkms_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

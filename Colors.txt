@@ -1,2 +1,4 @@
 backcolor: #FFEBDC;
 rgba: 255, 235, 220;
+
+Close red: 254, 39, 18;
