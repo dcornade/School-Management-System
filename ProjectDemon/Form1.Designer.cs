@@ -33,8 +33,11 @@ namespace ProjectDemon
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -46,45 +49,66 @@ namespace ProjectDemon
             this.Sidepanel1 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.Sidepanel1.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel18.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -99,6 +123,18 @@ namespace ProjectDemon
             this.panel1.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
             this.panel1.MouseLeave += new System.EventHandler(this.panel1_MouseLeave);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
+            this.pictureBox2.Location = new System.Drawing.Point(16, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.panel1_Click);
+            this.pictureBox2.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
@@ -112,6 +148,18 @@ namespace ProjectDemon
             this.panel2.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
             this.panel2.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProjectDemon.Properties.Resources.close;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(10, 11);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.panel2_Click);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
@@ -124,6 +172,18 @@ namespace ProjectDemon
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             this.panel3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
             this.panel3.MouseLeave += new System.EventHandler(this.panel3_MouseLeave);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ProjectDemon.Properties.Resources.minimize;
+            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(13, 13);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.panel3_Click);
+            this.pictureBox3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
             // 
             // panel4
             // 
@@ -233,16 +293,22 @@ namespace ProjectDemon
             this.Sidepanel1.Name = "Sidepanel1";
             this.Sidepanel1.Size = new System.Drawing.Size(272, 799);
             this.Sidepanel1.TabIndex = 10;
+            this.Sidepanel1.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
             // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(215)))), ((int)(((byte)(184)))));
             this.panel13.Controls.Add(this.panel14);
             this.panel13.Controls.Add(this.label11);
+            this.panel13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel13.Location = new System.Drawing.Point(1, 44);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(271, 44);
             this.panel13.TabIndex = 1;
+            this.panel13.Click += new System.EventHandler(this.panel13_Click);
+            this.panel13.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.panel13.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
+            this.panel13.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
             // 
             // panel14
             // 
@@ -250,8 +316,26 @@ namespace ProjectDemon
             this.panel14.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel14.Location = new System.Drawing.Point(0, 0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(42, 44);
+            this.panel14.Size = new System.Drawing.Size(41, 44);
             this.panel14.TabIndex = 14;
+            this.panel14.Click += new System.EventHandler(this.panel13_Click);
+            this.panel14.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.panel14.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
+            this.panel14.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::ProjectDemon.Properties.Resources.edit;
+            this.pictureBox6.Location = new System.Drawing.Point(7, 8);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(27, 27);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.panel13_Click);
+            this.pictureBox6.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.pictureBox6.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
+            this.pictureBox6.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
             // 
             // label11
             // 
@@ -264,16 +348,25 @@ namespace ProjectDemon
             this.label11.Size = new System.Drawing.Size(180, 27);
             this.label11.TabIndex = 14;
             this.label11.Text = "Registration";
+            this.label11.Click += new System.EventHandler(this.panel13_Click);
+            this.label11.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.label11.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
+            this.label11.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
             this.panel10.Controls.Add(this.panel12);
             this.panel10.Controls.Add(this.label10);
+            this.panel10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(274, 44);
             this.panel10.TabIndex = 0;
+            this.panel10.Click += new System.EventHandler(this.panel10_Click);
+            this.panel10.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.panel10.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
+            this.panel10.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
             // 
             // panel12
             // 
@@ -283,6 +376,24 @@ namespace ProjectDemon
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(42, 44);
             this.panel12.TabIndex = 14;
+            this.panel12.Click += new System.EventHandler(this.panel10_Click);
+            this.panel12.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.panel12.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
+            this.panel12.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProjectDemon.Properties.Resources.login;
+            this.pictureBox5.Location = new System.Drawing.Point(8, 10);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(28, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.panel10_Click);
+            this.pictureBox5.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.pictureBox5.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
+            this.pictureBox5.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
             // 
             // label10
             // 
@@ -295,26 +406,10 @@ namespace ProjectDemon
             this.label10.Size = new System.Drawing.Size(180, 27);
             this.label10.TabIndex = 14;
             this.label10.Text = "Login Window";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ProjectDemon.Properties.Resources.edit;
-            this.pictureBox6.Location = new System.Drawing.Point(7, 8);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(27, 27);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProjectDemon.Properties.Resources.login;
-            this.pictureBox5.Location = new System.Drawing.Point(8, 10);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.label10.Click += new System.EventHandler(this.panel10_Click);
+            this.label10.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.label10.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
+            this.label10.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
             // 
             // pictureBox4
             // 
@@ -326,42 +421,6 @@ namespace ProjectDemon
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ProjectDemon.Properties.Resources.minimize;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.panel3_Click);
-            this.pictureBox3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(12, 11);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.panel1_Click);
-            this.pictureBox2.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ProjectDemon.Properties.Resources.close;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(10, 11);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.panel2_Click);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
-            // 
             // panel7
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -370,7 +429,7 @@ namespace ProjectDemon
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.label6);
-            this.panel7.Location = new System.Drawing.Point(270, 32);
+            this.panel7.Location = new System.Drawing.Point(270, 31);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1185, 802);
             this.panel7.TabIndex = 11;
@@ -398,7 +457,7 @@ namespace ProjectDemon
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
-            this.button2.Location = new System.Drawing.Point(106, 356);
+            this.button2.Location = new System.Drawing.Point(106, 352);
             this.button2.MaximumSize = new System.Drawing.Size(428, 43);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(428, 43);
@@ -420,10 +479,22 @@ namespace ProjectDemon
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel9.Controls.Add(this.textBox1);
             this.panel9.Location = new System.Drawing.Point(42, 58);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(540, 57);
             this.panel9.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.textBox1.Location = new System.Drawing.Point(18, 13);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(505, 31);
+            this.textBox1.TabIndex = 0;
             // 
             // label8
             // 
@@ -439,10 +510,22 @@ namespace ProjectDemon
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel11.Controls.Add(this.textBox2);
             this.panel11.Location = new System.Drawing.Point(42, 165);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(540, 57);
             this.panel11.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.textBox2.Location = new System.Drawing.Point(18, 14);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(505, 27);
+            this.textBox2.TabIndex = 17;
             // 
             // button1
             // 
@@ -486,12 +569,189 @@ namespace ProjectDemon
             this.label6.TabIndex = 14;
             this.label6.Text = "Login Window";
             // 
+            // panel15
+            // 
+            this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel15.Controls.Add(this.panel16);
+            this.panel15.Controls.Add(this.label14);
+            this.panel15.Controls.Add(this.label15);
+            this.panel15.Location = new System.Drawing.Point(349, 12);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(1185, 802);
+            this.panel15.TabIndex = 17;
+            this.panel15.SizeChanged += new System.EventHandler(this.panel15_SizeChanged);
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.checkBox1);
+            this.panel16.Controls.Add(this.label16);
+            this.panel16.Controls.Add(this.panel19);
+            this.panel16.Controls.Add(this.label12);
+            this.panel16.Controls.Add(this.panel17);
+            this.panel16.Controls.Add(this.label13);
+            this.panel16.Controls.Add(this.panel18);
+            this.panel16.Controls.Add(this.button4);
+            this.panel16.Location = new System.Drawing.Point(272, 253);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(619, 483);
+            this.panel16.TabIndex = 16;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.checkBox1.Location = new System.Drawing.Point(42, 350);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(287, 33);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Request Admin Account";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.label16.Location = new System.Drawing.Point(37, 241);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(238, 25);
+            this.label16.TabIndex = 6;
+            this.label16.Text = " Confirm Password: - ";
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel19.Controls.Add(this.textBox5);
+            this.panel19.Location = new System.Drawing.Point(42, 269);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(540, 57);
+            this.panel19.TabIndex = 5;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.textBox5.Location = new System.Drawing.Point(18, 14);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(505, 27);
+            this.textBox5.TabIndex = 17;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.label12.Location = new System.Drawing.Point(37, 30);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 25);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "UserName: - ";
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel17.Controls.Add(this.textBox3);
+            this.panel17.Location = new System.Drawing.Point(42, 58);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(540, 57);
+            this.panel17.TabIndex = 3;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.textBox3.Location = new System.Drawing.Point(18, 13);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(505, 31);
+            this.textBox3.TabIndex = 0;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.label13.Location = new System.Drawing.Point(37, 137);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(143, 25);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Password: - ";
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel18.Controls.Add(this.textBox4);
+            this.panel18.Location = new System.Drawing.Point(42, 165);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(540, 57);
+            this.panel18.TabIndex = 1;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.textBox4.Location = new System.Drawing.Point(18, 14);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(505, 27);
+            this.textBox4.TabIndex = 17;
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.AutoSize = true;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.button4.Location = new System.Drawing.Point(106, 411);
+            this.button4.MaximumSize = new System.Drawing.Size(428, 43);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(428, 43);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "Register";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label14.Location = new System.Drawing.Point(34, 175);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(1126, 34);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "Just Create A Login Id To Use This Application by filling applicaple fields";
+            this.label14.UseCompatibleTextRendering = true;
+            // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Lucida Sans Typewriter", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label15.Location = new System.Drawing.Point(228, 78);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(771, 72);
+            this.label15.TabIndex = 14;
+            this.label15.Text = "Registration Window";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(1455, 860);
+            this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.Sidepanel1);
             this.Controls.Add(this.label4);
@@ -504,8 +764,11 @@ namespace ProjectDemon
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SchoolProject";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
@@ -514,19 +777,30 @@ namespace ProjectDemon
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -568,6 +842,23 @@ namespace ProjectDemon
         private Button button1;
         private Label label7;
         private Label label6;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Panel panel15;
+        private Panel panel16;
+        private Label label12;
+        private Panel panel17;
+        private TextBox textBox3;
+        private Label label13;
+        private Panel panel18;
+        private TextBox textBox4;
+        private Button button4;
+        private Label label14;
+        private Label label15;
+        private CheckBox checkBox1;
+        private Label label16;
+        private Panel panel19;
+        private TextBox textBox5;
     }
 }
 

@@ -12,14 +12,38 @@ namespace ProjectDemon
 {
     public partial class Form1 : Form
     {
+        Panel activepanel;
+        bool isSideActive = true;
+        const int sidewidth = 272;
+
         #region User-Created-Functions
         void rescale()
         {
 
         }
+        public void switchingpanels() {
+            panel15.Visible = false;
+            panel7.Visible = false;
+        }
+        void settingactivepanel() {
+            activepanel.Visible = true;
+            activepanel.Top = 31;
+            activepanel.Height = 802;
+            if (isSideActive == true)
+            {
+                activepanel.Width = this.Width - sidewidth;
+                activepanel.Left = sidewidth;
+            }
+            else
+            {
+                activepanel.Width = this.Width -  42;
+                activepanel.Left = 42;
+            }
+        }
         #endregion
         public Form1()
         {
+            //textBox2.UseSystemPasswordChar = true;
             this.MaximizedBounds = Screen.PrimaryScreen.WorkingArea;
             InitializeComponent();
             if (this.WindowState == FormWindowState.Maximized)
@@ -30,6 +54,11 @@ namespace ProjectDemon
             {
                 this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
             }
+            switchingpanels();
+            activepanel = panel7;
+            settingactivepanel();
+            textBox2.UseSystemPasswordChar = true;
+            activepanel = panel7;
         }
 
         #region Min,max,close Windows
@@ -120,6 +149,71 @@ namespace ProjectDemon
             label6.Left = panel7.Width / 2 - label6.Width / 2;
             label7.Left = panel7.Width / 2 - label7.Width / 2;
             panel8.Left = panel7.Width / 2 - panel8.Width / 2;
+        }
+
+        private void Sidepanel1_DoubleClick(object sender, EventArgs e)
+        {
+            if(isSideActive == true)
+            {
+                activepanel.Width = activepanel.Width + (sidewidth - 42);
+                Sidepanel1.Width = 42;
+                activepanel.Left = 42;
+                isSideActive = false;
+            }
+            else
+            {
+                activepanel.Width = activepanel.Width - (sidewidth - 42);
+                Sidepanel1.Width = 272;
+                activepanel.Left = 272;
+                isSideActive = true;
+            }
+            
+        }
+
+        private void panel13_MouseEnter(object sender, EventArgs e)
+        {
+            if(activepanel != panel15) { panel13.BackColor = Color.FromArgb(254, 171, 109); }
+        }
+
+        private void panel13_MouseLeave(object sender, EventArgs e)
+        {
+            if (activepanel != panel15) { panel13.BackColor = Color.FromArgb(255, 215, 184); }
+            
+        }
+
+        private void panel13_Click(object sender, EventArgs e)
+        {
+            switchingpanels();
+            activepanel = panel15;
+            settingactivepanel();
+            panel13.BackColor = Color.FromArgb(254, 171, 109);
+            panel10.BackColor = Color.FromArgb(255, 215, 184);
+        }
+
+        private void panel10_MouseEnter(object sender, EventArgs e)
+        {
+            if (activepanel != panel7) { panel10.BackColor = Color.FromArgb(254, 171, 109); }
+        }
+
+        private void panel10_MouseLeave(object sender, EventArgs e)
+        {
+            if (activepanel != panel7) { panel10.BackColor = Color.FromArgb(255, 215, 184); }
+        }
+
+        private void panel10_Click(object sender, EventArgs e)
+        {
+            switchingpanels();
+            activepanel = panel7;
+            settingactivepanel();
+            panel10.BackColor = Color.FromArgb(254, 171, 109);
+            panel13.BackColor = Color.FromArgb(255, 215, 184);
+        }
+
+        private void panel15_SizeChanged(object sender, EventArgs e)
+        {
+            label15.Left = panel15.Width / 2 - label15.Width / 2;
+            label14.Left = panel15.Width / 2 - label14.Width / 2;
+            panel16.Left = panel15.Width / 2 - panel16.Width / 2;
         }
     }
 }
