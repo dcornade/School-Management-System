@@ -12,6 +12,11 @@ namespace ProjectDemon
 {
     public partial class Form1 : Form
     {
+        #region infopanels
+        //panel7 = login window
+        //panel15 = registration window
+        #endregion
+
         Panel activepanel;
         bool isSideActive = true;
         const int sidewidth = 272;
@@ -214,6 +219,98 @@ namespace ProjectDemon
             label15.Left = panel15.Width / 2 - label15.Width / 2;
             label14.Left = panel15.Width / 2 - label14.Width / 2;
             panel16.Left = panel15.Width / 2 - panel16.Width / 2;
+        }
+
+        private void panel11_Click(object sender, EventArgs e)
+        {
+            textBox2.Focus();
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = true;
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = false;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            if (textBox2.UseSystemPasswordChar == true)
+            {
+                textBox2.UseSystemPasswordChar = false;
+                pictureBox7.Image = global::ProjectDemon.Properties.Resources.invisible;
+            }
+            else
+            {
+                textBox2.UseSystemPasswordChar = true;
+                pictureBox7.Image = global::ProjectDemon.Properties.Resources.eye;
+            }
+        }
+
+        private void panel18_Click(object sender, EventArgs e)
+        {
+            textBox4.Focus();
+        }
+
+        private void textBox4_Enter(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = true;
+        }
+
+        private void textBox4_Leave(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = false;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            if (textBox4.UseSystemPasswordChar == true)
+            {
+                textBox4.UseSystemPasswordChar = false;
+                pictureBox8.Image = global::ProjectDemon.Properties.Resources.invisible;
+            }
+            else
+            {
+                textBox4.UseSystemPasswordChar = true;
+                pictureBox8.Image = global::ProjectDemon.Properties.Resources.eye;
+            }
+        }
+
+        private void panel19_Click(object sender, EventArgs e)
+        {
+            textBox5.Focus();
+        }
+
+        private void textBox5_Enter(object sender, EventArgs e)
+        {
+            pictureBox9.Visible = true;
+        }
+
+        private void textBox5_Leave(object sender, EventArgs e)
+        {
+            pictureBox9.Visible = false;
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            if (textBox5.UseSystemPasswordChar == true)
+            {
+                textBox5.UseSystemPasswordChar = false;
+                pictureBox9.Image = global::ProjectDemon.Properties.Resources.invisible;
+            }
+            else
+            {
+                textBox5.UseSystemPasswordChar = true;
+                pictureBox9.Image = global::ProjectDemon.Properties.Resources.eye;
+            }
+        }
+
+        private void panel9_Click(object sender, EventArgs e)
+        {
+            textBox1.Focus();
         }
     }
 }

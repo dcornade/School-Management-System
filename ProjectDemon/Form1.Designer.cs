@@ -55,7 +55,6 @@ namespace ProjectDemon
             this.panel12 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -64,6 +63,7 @@ namespace ProjectDemon
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -73,16 +73,19 @@ namespace ProjectDemon
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -99,16 +102,19 @@ namespace ProjectDemon
             this.panel10.SuspendLayout();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -411,16 +417,6 @@ namespace ProjectDemon
             this.label10.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
             this.label10.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::ProjectDemon.Properties.Resources.my_logo2;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 21);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel7
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -454,6 +450,7 @@ namespace ProjectDemon
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.AutoSize = true;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
@@ -480,10 +477,12 @@ namespace ProjectDemon
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
             this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel9.Location = new System.Drawing.Point(42, 58);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(540, 57);
             this.panel9.TabIndex = 3;
+            this.panel9.Click += new System.EventHandler(this.panel9_Click);
             // 
             // textBox1
             // 
@@ -510,11 +509,27 @@ namespace ProjectDemon
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel11.Controls.Add(this.pictureBox7);
             this.panel11.Controls.Add(this.textBox2);
+            this.panel11.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel11.Location = new System.Drawing.Point(42, 165);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(540, 57);
             this.panel11.TabIndex = 1;
+            this.panel11.Click += new System.EventHandler(this.panel11_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox7.Location = new System.Drawing.Point(498, 14);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 18;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Visible = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // textBox2
             // 
@@ -524,8 +539,10 @@ namespace ProjectDemon
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
             this.textBox2.Location = new System.Drawing.Point(18, 14);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(505, 27);
+            this.textBox2.Size = new System.Drawing.Size(474, 27);
             this.textBox2.TabIndex = 17;
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // button1
             // 
@@ -533,6 +550,7 @@ namespace ProjectDemon
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.AutoSize = true;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
@@ -577,10 +595,11 @@ namespace ProjectDemon
             this.panel15.Controls.Add(this.panel16);
             this.panel15.Controls.Add(this.label14);
             this.panel15.Controls.Add(this.label15);
-            this.panel15.Location = new System.Drawing.Point(349, 12);
+            this.panel15.Location = new System.Drawing.Point(1445, 25);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1185, 802);
             this.panel15.TabIndex = 17;
+            this.panel15.Visible = false;
             this.panel15.SizeChanged += new System.EventHandler(this.panel15_SizeChanged);
             // 
             // panel16
@@ -624,11 +643,27 @@ namespace ProjectDemon
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel19.Controls.Add(this.pictureBox9);
             this.panel19.Controls.Add(this.textBox5);
+            this.panel19.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel19.Location = new System.Drawing.Point(42, 269);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(540, 57);
             this.panel19.TabIndex = 5;
+            this.panel19.Click += new System.EventHandler(this.panel19_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox9.Location = new System.Drawing.Point(495, 14);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 20;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // textBox5
             // 
@@ -638,8 +673,11 @@ namespace ProjectDemon
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
             this.textBox5.Location = new System.Drawing.Point(18, 14);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(505, 27);
+            this.textBox5.Size = new System.Drawing.Size(471, 27);
             this.textBox5.TabIndex = 17;
+            this.textBox5.UseSystemPasswordChar = true;
+            this.textBox5.Enter += new System.EventHandler(this.textBox5_Enter);
+            this.textBox5.Leave += new System.EventHandler(this.textBox5_Leave);
             // 
             // label12
             // 
@@ -686,11 +724,27 @@ namespace ProjectDemon
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
+            this.panel18.Controls.Add(this.pictureBox8);
             this.panel18.Controls.Add(this.textBox4);
+            this.panel18.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.panel18.Location = new System.Drawing.Point(42, 165);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(540, 57);
             this.panel18.TabIndex = 1;
+            this.panel18.Click += new System.EventHandler(this.panel18_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox8.Location = new System.Drawing.Point(495, 14);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 19;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // textBox4
             // 
@@ -700,8 +754,11 @@ namespace ProjectDemon
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
             this.textBox4.Location = new System.Drawing.Point(18, 14);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(505, 27);
+            this.textBox4.Size = new System.Drawing.Size(474, 27);
             this.textBox4.TabIndex = 17;
+            this.textBox4.UseSystemPasswordChar = true;
+            this.textBox4.Enter += new System.EventHandler(this.textBox4_Enter);
+            this.textBox4.Leave += new System.EventHandler(this.textBox4_Leave);
             // 
             // button4
             // 
@@ -709,6 +766,7 @@ namespace ProjectDemon
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.AutoSize = true;
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
@@ -744,6 +802,16 @@ namespace ProjectDemon
             this.label15.Size = new System.Drawing.Size(771, 72);
             this.label15.TabIndex = 14;
             this.label15.Text = "Registration Window";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ProjectDemon.Properties.Resources.my_logo2;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 21);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
             // 
             // Form1
             // 
@@ -782,7 +850,6 @@ namespace ProjectDemon
             this.panel10.PerformLayout();
             this.panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -791,16 +858,20 @@ namespace ProjectDemon
             this.panel9.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -859,6 +930,9 @@ namespace ProjectDemon
         private Label label16;
         private Panel panel19;
         private TextBox textBox5;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox9;
+        private PictureBox pictureBox8;
     }
 }
 
