@@ -57,6 +57,7 @@ namespace ProjectDemon
             this.label10 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -70,6 +71,8 @@ namespace ProjectDemon
             this.label6 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
@@ -86,6 +89,7 @@ namespace ProjectDemon
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -433,6 +437,7 @@ namespace ProjectDemon
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.label17);
             this.panel8.Controls.Add(this.button2);
             this.panel8.Controls.Add(this.label9);
             this.panel8.Controls.Add(this.panel9);
@@ -443,6 +448,20 @@ namespace ProjectDemon
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(619, 435);
             this.panel8.TabIndex = 16;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label17.Location = new System.Drawing.Point(308, 225);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(274, 24);
+            this.label17.TabIndex = 17;
+            this.label17.Text = "Wrong Username or Password!";
+            this.label17.UseCompatibleTextRendering = true;
+            this.label17.Visible = false;
             // 
             // button2
             // 
@@ -461,6 +480,7 @@ namespace ProjectDemon
             this.button2.TabIndex = 5;
             this.button2.Text = "Register Now";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label9
             // 
@@ -561,6 +581,7 @@ namespace ProjectDemon
             this.button1.TabIndex = 0;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
@@ -595,7 +616,7 @@ namespace ProjectDemon
             this.panel15.Controls.Add(this.panel16);
             this.panel15.Controls.Add(this.label14);
             this.panel15.Controls.Add(this.label15);
-            this.panel15.Location = new System.Drawing.Point(1445, 25);
+            this.panel15.Location = new System.Drawing.Point(281, 9);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1185, 802);
             this.panel15.TabIndex = 17;
@@ -604,6 +625,9 @@ namespace ProjectDemon
             // 
             // panel16
             // 
+            this.panel16.Controls.Add(this.label20);
+            this.panel16.Controls.Add(this.label19);
+            this.panel16.Controls.Add(this.label18);
             this.panel16.Controls.Add(this.checkBox1);
             this.panel16.Controls.Add(this.label16);
             this.panel16.Controls.Add(this.panel19);
@@ -616,6 +640,34 @@ namespace ProjectDemon
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(619, 483);
             this.panel16.TabIndex = 16;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label19.Location = new System.Drawing.Point(199, 116);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(383, 24);
+            this.label19.TabIndex = 19;
+            this.label19.Text = "Username should be more than 3 letters";
+            this.label19.UseCompatibleTextRendering = true;
+            this.label19.Visible = false;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label18.Location = new System.Drawing.Point(348, 329);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(234, 24);
+            this.label18.TabIndex = 18;
+            this.label18.Text = "Password doesn\'t match!";
+            this.label18.UseCompatibleTextRendering = true;
+            this.label18.Visible = false;
             // 
             // checkBox1
             // 
@@ -676,6 +728,7 @@ namespace ProjectDemon
             this.textBox5.Size = new System.Drawing.Size(471, 27);
             this.textBox5.TabIndex = 17;
             this.textBox5.UseSystemPasswordChar = true;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             this.textBox5.Enter += new System.EventHandler(this.textBox5_Enter);
             this.textBox5.Leave += new System.EventHandler(this.textBox5_Leave);
             // 
@@ -709,6 +762,8 @@ namespace ProjectDemon
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(505, 31);
             this.textBox3.TabIndex = 0;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // label13
             // 
@@ -757,6 +812,7 @@ namespace ProjectDemon
             this.textBox4.Size = new System.Drawing.Size(474, 27);
             this.textBox4.TabIndex = 17;
             this.textBox4.UseSystemPasswordChar = true;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             this.textBox4.Enter += new System.EventHandler(this.textBox4_Enter);
             this.textBox4.Leave += new System.EventHandler(this.textBox4_Leave);
             // 
@@ -777,6 +833,7 @@ namespace ProjectDemon
             this.button4.TabIndex = 0;
             this.button4.Text = "Register";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label14
             // 
@@ -812,6 +869,20 @@ namespace ProjectDemon
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label20.Location = new System.Drawing.Point(258, 222);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(324, 24);
+            this.label20.TabIndex = 20;
+            this.label20.Text = "Please Enter your password first";
+            this.label20.UseCompatibleTextRendering = true;
+            this.label20.Visible = false;
             // 
             // Form1
             // 
@@ -933,6 +1004,10 @@ namespace ProjectDemon
         private PictureBox pictureBox7;
         private PictureBox pictureBox9;
         private PictureBox pictureBox8;
+        private Label label17;
+        private Label label19;
+        private Label label18;
+        private Label label20;
     }
 }
 

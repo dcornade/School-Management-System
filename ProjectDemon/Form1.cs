@@ -7,28 +7,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+
 
 namespace ProjectDemon
 {
     public partial class Form1 : Form
     {
+        OleDbConnection oleDb;
         #region infopanels
         //panel7 = login window
         //panel15 = registration window
         #endregion
-
+        bool usersame = false;
         Panel activepanel;
         bool isSideActive = true;
         const int sidewidth = 272;
 
         #region User-Created-Functions
-        void rescale()
+        public void uncheckers()
         {
-
+            checkBox1.Checked = false;
+        }
+        public void warningvisible() {
+            label17.Visible = false;
+            label18.Visible = false;
+            label19.Visible = false;
+            label20.Visible = false;
+        }
+        public void textcleaner() {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
         }
         public void switchingpanels() {
             panel15.Visible = false;
             panel7.Visible = false;
+            textcleaner();
+            warningvisible();
+            uncheckers();
         }
         void settingactivepanel() {
             activepanel.Visible = true;
@@ -41,7 +60,7 @@ namespace ProjectDemon
             }
             else
             {
-                activepanel.Width = this.Width -  42;
+                activepanel.Width = this.Width - 42;
                 activepanel.Left = 42;
             }
         }
@@ -64,6 +83,7 @@ namespace ProjectDemon
             settingactivepanel();
             textBox2.UseSystemPasswordChar = true;
             activepanel = panel7;
+            oleDb = new OleDbConnection("Provider = Microsoft.Jet.OLEDB.4.0; Data Source = school.mdb");
         }
 
         #region Min,max,close Windows
@@ -89,7 +109,7 @@ namespace ProjectDemon
 
         private void panel2_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BackColor= Color.FromArgb(254, 39, 18);
+            panel2.BackColor = Color.FromArgb(254, 39, 18);
         }
 
         private void panel2_MouseLeave(object sender, EventArgs e)
@@ -105,7 +125,7 @@ namespace ProjectDemon
         private void panel1_Click(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Maximized)
-            { 
+            {
                 this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
                 this.WindowState = FormWindowState.Normal;
             }
@@ -125,12 +145,12 @@ namespace ProjectDemon
         #region Status Bar
         private void label5_MouseEnter(object sender, EventArgs e)
         {
-            label5.Font = new Font(label5.Font, FontStyle.Underline|FontStyle.Bold);
+            label5.Font = new Font(label5.Font, FontStyle.Underline | FontStyle.Bold);
         }
 
         private void label5_MouseLeave(object sender, EventArgs e)
         {
-            label5.Font = new Font(label5.Font,  FontStyle.Bold);
+            label5.Font = new Font(label5.Font, FontStyle.Bold);
         }
 
         private void label1_MouseEnter(object sender, EventArgs e)
@@ -149,6 +169,7 @@ namespace ProjectDemon
         }
         #endregion
 
+        
         private void panel7_SizeChanged(object sender, EventArgs e)
         {
             label6.Left = panel7.Width / 2 - label6.Width / 2;
@@ -158,7 +179,7 @@ namespace ProjectDemon
 
         private void Sidepanel1_DoubleClick(object sender, EventArgs e)
         {
-            if(isSideActive == true)
+            if (isSideActive == true)
             {
                 activepanel.Width = activepanel.Width + (sidewidth - 42);
                 Sidepanel1.Width = 42;
@@ -172,18 +193,19 @@ namespace ProjectDemon
                 activepanel.Left = 272;
                 isSideActive = true;
             }
-            
+
         }
 
+        #region Login And Registration
         private void panel13_MouseEnter(object sender, EventArgs e)
         {
-            if(activepanel != panel15) { panel13.BackColor = Color.FromArgb(254, 171, 109); }
+            if (activepanel != panel15) { panel13.BackColor = Color.FromArgb(254, 171, 109); }
         }
 
         private void panel13_MouseLeave(object sender, EventArgs e)
         {
             if (activepanel != panel15) { panel13.BackColor = Color.FromArgb(255, 215, 184); }
-            
+
         }
 
         private void panel13_Click(object sender, EventArgs e)
@@ -257,7 +279,18 @@ namespace ProjectDemon
 
         private void textBox4_Enter(object sender, EventArgs e)
         {
-            pictureBox8.Visible = true;
+            if (textBox3.Text.Length <= 3)
+            {
+                label19.Visible = true;
+                label19.Text = "Username should be more than 3 letters";
+                textBox3.Focus();
+            }
+            else
+            {
+                pictureBox8.Visible = true;
+                label19.Visible = false;
+            }
+
         }
 
         private void textBox4_Leave(object sender, EventArgs e)
@@ -286,7 +319,23 @@ namespace ProjectDemon
 
         private void textBox5_Enter(object sender, EventArgs e)
         {
-            pictureBox9.Visible = true;
+            if (textBox3.Text.Length <= 3)
+            {
+                label19.Visible = true;
+                label19.Text = "Username should be more than 3 letters";
+                textBox3.Focus();
+            }
+            else if (textBox4.Text == "")
+            {
+                pictureBox8.Visible = true;
+                label19.Visible = false;
+                label20.Visible = true;
+                textBox4.Focus();
+            }
+            else
+            {
+                pictureBox9.Visible = true;
+            }
         }
 
         private void textBox5_Leave(object sender, EventArgs e)
@@ -312,5 +361,154 @@ namespace ProjectDemon
         {
             textBox1.Focus();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            switchingpanels();
+            activepanel = panel15;
+            settingactivepanel();
+            panel13.BackColor = Color.FromArgb(254, 171, 109);
+            panel10.BackColor = Color.FromArgb(255, 215, 184);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            oleDb.Open();
+            string sql = "Select * from Login where UserId='" + textBox1.Text + "' and passw = '" + textBox2.Text + "'";
+            OleDbDataAdapter adapter = new OleDbDataAdapter(sql, oleDb);
+            DataSet set = new DataSet();
+            adapter.Fill(set);
+            if (set.Tables[0].Rows.Count != 0)
+            {
+                label17.Visible = true;
+                label17.Text = "Login Successful!";
+            }
+            else
+            {
+                label17.Visible = true;
+                label17.Text = "Wrong Username or Password!";
+            }
+
+            oleDb.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            oleDb.Open();
+            if (textBox3.Text.Length <= 3 || usersame)
+            {
+                label19.Visible = true;
+                if (textBox3.Text.Length <= 3) {
+                    label19.Text = "Username should be more than 3 letters";
+                }
+                else
+                {
+                    label19.Text = "Username already exists";
+                }
+                textBox3.Focus();
+            }
+            else if (textBox4.Text == "")
+            {
+                pictureBox8.Visible = true;
+                label19.Visible = false;
+                label20.Visible = true;
+                textBox4.Focus();
+            }
+            else if (textBox4.Text != textBox5.Text)
+            {
+                label18.Visible = true;
+                textBox5.Focus();
+            }
+            else
+            {
+                string user, pass;
+                bool reqadm = (checkBox1.Checked) ? true : false;
+                user = textBox3.Text;
+                pass = textBox4.Text;
+                string sql = "Insert into Login values('" + user + "', '" + pass + "', " + false + ", " + reqadm + ")";
+                OleDbCommand dbCommand = new OleDbCommand(sql, oleDb);
+                dbCommand.ExecuteNonQuery();
+                textcleaner();
+                label18.Visible = true;
+                label18.Text = "Account Created!";
+                label19.Visible = false;
+            }
+            oleDb.Close();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox3.Text.Length <= 3)
+            {
+                label19.Visible = true;
+                label19.Text = "Username should be more than 3 letters";
+            }
+            else
+            {
+                oleDb.Open();
+                string sql = "Select * from Login where UserId='" + textBox3.Text + "'";
+                OleDbDataAdapter adapter = new OleDbDataAdapter(sql, oleDb);
+                DataSet set = new DataSet();
+                adapter.Fill(set);
+                if (set.Tables[0].Rows.Count != 0)
+                {
+                    label19.Visible = true;
+                    label19.Text = "Username already exists";
+                    usersame = true;
+                }
+                else
+                {
+                    usersame = false;
+                    label19.Visible = false;
+                }
+                oleDb.Close();
+            }
+        }
+
+        private void textBox3_Leave(object sender, EventArgs e)
+        {
+            if (textBox3.Text.Length <= 3 || usersame == true)
+            {
+                label19.Visible = true;
+                if (usersame == true)
+                {
+                    label19.Text = "Username already exists";
+                }
+                else
+                {
+                    label19.Text = "Username should be more than 3 letters";
+                }
+                textBox3.Focus();
+            }
+            else
+            {
+                label19.Visible = false;
+            }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox4.Text == "")
+            {
+
+            }
+            else
+            {
+                label20.Visible = false;
+            }
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox4.Text != textBox5.Text)
+            {
+                label18.Visible = true;
+            }
+            else
+            {
+                label18.Visible = false;
+            }
+        }
+        #endregion
     }
 }
