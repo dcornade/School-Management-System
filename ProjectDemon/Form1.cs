@@ -380,8 +380,15 @@ namespace ProjectDemon
             adapter.Fill(set);
             if (set.Tables[0].Rows.Count != 0)
             {
-                label17.Visible = true;
-                label17.Text = "Login Successful!";
+                //label17.Visible = true;
+                //label17.Text = "Login Successful!";
+                switchingpanels();
+                activepanel = panel20;
+                settingactivepanel();
+                panel13.Visible = false;
+                panel10.Visible = false;
+                panel21.Visible = true;
+                panel21.Location = new Point(0, 0);
             }
             else
             {

@@ -33,11 +33,8 @@ namespace ProjectDemon
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -49,11 +46,9 @@ namespace ProjectDemon
             this.Sidepanel1 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
@@ -64,61 +59,88 @@ namespace ProjectDemon
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.Sidepanel1.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -133,18 +155,6 @@ namespace ProjectDemon
             this.panel1.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
             this.panel1.MouseLeave += new System.EventHandler(this.panel1_MouseLeave);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(12, 11);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.panel1_Click);
-            this.pictureBox2.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
@@ -158,18 +168,6 @@ namespace ProjectDemon
             this.panel2.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
             this.panel2.MouseLeave += new System.EventHandler(this.panel2_MouseLeave);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ProjectDemon.Properties.Resources.close;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(10, 11);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.panel2_Click);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
@@ -182,18 +180,6 @@ namespace ProjectDemon
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             this.panel3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
             this.panel3.MouseLeave += new System.EventHandler(this.panel3_MouseLeave);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ProjectDemon.Properties.Resources.minimize;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.panel3_Click);
-            this.pictureBox3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
             // 
             // panel4
             // 
@@ -211,6 +197,9 @@ namespace ProjectDemon
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(28)))), ((int)(((byte)(9)))));
+            this.panel5.Controls.Add(this.label24);
+            this.panel5.Controls.Add(this.label25);
+            this.panel5.Controls.Add(this.pictureBox11);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Location = new System.Drawing.Point(0, 833);
             this.panel5.Name = "panel5";
@@ -297,6 +286,7 @@ namespace ProjectDemon
             this.Sidepanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.Sidepanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(215)))), ((int)(((byte)(184)))));
+            this.Sidepanel1.Controls.Add(this.panel21);
             this.Sidepanel1.Controls.Add(this.panel13);
             this.Sidepanel1.Controls.Add(this.panel10);
             this.Sidepanel1.Location = new System.Drawing.Point(1, 33);
@@ -332,20 +322,6 @@ namespace ProjectDemon
             this.panel14.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
             this.panel14.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
             this.panel14.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ProjectDemon.Properties.Resources.edit;
-            this.pictureBox6.Location = new System.Drawing.Point(7, 8);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(27, 27);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.panel13_Click);
-            this.pictureBox6.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
-            this.pictureBox6.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
-            this.pictureBox6.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
             // 
             // label11
             // 
@@ -391,20 +367,6 @@ namespace ProjectDemon
             this.panel12.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
             this.panel12.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProjectDemon.Properties.Resources.login;
-            this.pictureBox5.Location = new System.Drawing.Point(8, 10);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.panel10_Click);
-            this.pictureBox5.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
-            this.pictureBox5.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
-            this.pictureBox5.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
-            // 
             // label10
             // 
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -429,7 +391,7 @@ namespace ProjectDemon
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.label6);
-            this.panel7.Location = new System.Drawing.Point(270, 31);
+            this.panel7.Location = new System.Drawing.Point(1455, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1185, 802);
             this.panel7.TabIndex = 11;
@@ -538,19 +500,6 @@ namespace ProjectDemon
             this.panel11.TabIndex = 1;
             this.panel11.Click += new System.EventHandler(this.panel11_Click);
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::ProjectDemon.Properties.Resources.eye;
-            this.pictureBox7.Location = new System.Drawing.Point(498, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 18;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Visible = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
@@ -616,7 +565,7 @@ namespace ProjectDemon
             this.panel15.Controls.Add(this.panel16);
             this.panel15.Controls.Add(this.label14);
             this.panel15.Controls.Add(this.label15);
-            this.panel15.Location = new System.Drawing.Point(281, 9);
+            this.panel15.Location = new System.Drawing.Point(1455, 12);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1185, 802);
             this.panel15.TabIndex = 17;
@@ -640,6 +589,20 @@ namespace ProjectDemon
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(619, 483);
             this.panel16.TabIndex = 16;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label20.Location = new System.Drawing.Point(258, 222);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(324, 24);
+            this.label20.TabIndex = 20;
+            this.label20.Text = "Please Enter your password first";
+            this.label20.UseCompatibleTextRendering = true;
+            this.label20.Visible = false;
             // 
             // label19
             // 
@@ -703,19 +666,6 @@ namespace ProjectDemon
             this.panel19.Size = new System.Drawing.Size(540, 57);
             this.panel19.TabIndex = 5;
             this.panel19.Click += new System.EventHandler(this.panel19_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = global::ProjectDemon.Properties.Resources.eye;
-            this.pictureBox9.Location = new System.Drawing.Point(495, 14);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 20;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Visible = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // textBox5
             // 
@@ -788,19 +738,6 @@ namespace ProjectDemon
             this.panel18.TabIndex = 1;
             this.panel18.Click += new System.EventHandler(this.panel18_Click);
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = global::ProjectDemon.Properties.Resources.eye;
-            this.pictureBox8.Location = new System.Drawing.Point(495, 14);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 19;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Visible = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
@@ -860,6 +797,129 @@ namespace ProjectDemon
             this.label15.TabIndex = 14;
             this.label15.Text = "Registration Window";
             // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.panel26);
+            this.panel20.Controls.Add(this.panel25);
+            this.panel20.Controls.Add(this.panel24);
+            this.panel20.Controls.Add(this.panel23);
+            this.panel20.Controls.Add(this.label22);
+            this.panel20.Location = new System.Drawing.Point(274, 31);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(1181, 802);
+            this.panel20.TabIndex = 18;
+            this.panel20.Visible = false;
+            // 
+            // panel21
+            // 
+            this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.panel21.Controls.Add(this.panel22);
+            this.panel21.Controls.Add(this.label21);
+            this.panel21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel21.Location = new System.Drawing.Point(2, 121);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(274, 44);
+            this.panel21.TabIndex = 2;
+            this.panel21.Visible = false;
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.pictureBox10);
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel22.Location = new System.Drawing.Point(0, 0);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(42, 44);
+            this.panel22.TabIndex = 14;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Lucida Sans Typewriter", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label21.Location = new System.Drawing.Point(37, 10);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(138, 27);
+            this.label21.TabIndex = 14;
+            this.label21.Text = "DashBoard";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox9.Location = new System.Drawing.Point(495, 14);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 20;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox8.Location = new System.Drawing.Point(495, 14);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 19;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = global::ProjectDemon.Properties.Resources.eye;
+            this.pictureBox7.Location = new System.Drawing.Point(498, 14);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 18;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Visible = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::ProjectDemon.Properties.Resources.dashboard;
+            this.pictureBox10.Location = new System.Drawing.Point(8, 10);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(27, 27);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::ProjectDemon.Properties.Resources.edit;
+            this.pictureBox6.Location = new System.Drawing.Point(7, 8);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(27, 27);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.panel13_Click);
+            this.pictureBox6.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.pictureBox6.MouseEnter += new System.EventHandler(this.panel13_MouseEnter);
+            this.pictureBox6.MouseLeave += new System.EventHandler(this.panel13_MouseLeave);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProjectDemon.Properties.Resources.login;
+            this.pictureBox5.Location = new System.Drawing.Point(8, 10);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(28, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.panel10_Click);
+            this.pictureBox5.DoubleClick += new System.EventHandler(this.Sidepanel1_DoubleClick);
+            this.pictureBox5.MouseEnter += new System.EventHandler(this.panel10_MouseEnter);
+            this.pictureBox5.MouseLeave += new System.EventHandler(this.panel10_MouseLeave);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ProjectDemon.Properties.Resources.my_logo2;
@@ -870,19 +930,149 @@ namespace ProjectDemon
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
-            // label20
+            // pictureBox3
             // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Lucida Sans Typewriter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
-            this.label20.Location = new System.Drawing.Point(258, 222);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(324, 24);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "Please Enter your password first";
-            this.label20.UseCompatibleTextRendering = true;
-            this.label20.Visible = false;
+            this.pictureBox3.Image = global::ProjectDemon.Properties.Resources.minimize;
+            this.pictureBox3.Location = new System.Drawing.Point(13, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(13, 13);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.panel3_Click);
+            this.pictureBox3.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProjectDemon.Properties.Resources.squares_min;
+            this.pictureBox2.Location = new System.Drawing.Point(16, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(12, 11);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.panel1_Click);
+            this.pictureBox2.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProjectDemon.Properties.Resources.close;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(10, 11);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.panel2_Click);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.panel2_MouseEnter);
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Lucida Sans Typewriter", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(69)))), ((int)(((byte)(2)))));
+            this.label22.Location = new System.Drawing.Point(515, 4);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(216, 42);
+            this.label22.TabIndex = 15;
+            this.label22.Text = "DashBoard";
+            // 
+            // panel23
+            // 
+            this.panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            this.panel23.Controls.Add(this.panel28);
+            this.panel23.Controls.Add(this.panel27);
+            this.panel23.Controls.Add(this.label23);
+            this.panel23.Location = new System.Drawing.Point(58, 56);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(1070, 317);
+            this.panel23.TabIndex = 16;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            this.panel24.Location = new System.Drawing.Point(58, 432);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(287, 318);
+            this.panel24.TabIndex = 17;
+            // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            this.panel25.Location = new System.Drawing.Point(460, 432);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(287, 318);
+            this.panel25.TabIndex = 18;
+            // 
+            // panel26
+            // 
+            this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(240)))));
+            this.panel26.Location = new System.Drawing.Point(841, 432);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(287, 318);
+            this.panel26.TabIndex = 19;
+            // 
+            // label23
+            // 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Lucida Sans Unicode", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(96)))), ((int)(((byte)(10)))));
+            this.label23.Location = new System.Drawing.Point(459, 287);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(209, 25);
+            this.label23.TabIndex = 16;
+            this.label23.Text = "Student\'s Database";
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
+            this.panel27.Location = new System.Drawing.Point(47, 42);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(626, 234);
+            this.panel27.TabIndex = 17;
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
+            this.panel28.Location = new System.Drawing.Point(783, 42);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(258, 234);
+            this.panel28.TabIndex = 18;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::ProjectDemon.Properties.Resources.twitter;
+            this.pictureBox11.Location = new System.Drawing.Point(1140, 4);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(21, 19);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 11;
+            this.pictureBox11.TabStop = false;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.label24.Location = new System.Drawing.Point(1158, 5);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(58, 16);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "Twitter ";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(171)))), ((int)(((byte)(109)))));
+            this.label25.Location = new System.Drawing.Point(1212, 4);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(12, 16);
+            this.label25.TabIndex = 21;
+            this.label25.Text = "|";
             // 
             // Form1
             // 
@@ -890,6 +1080,7 @@ namespace ProjectDemon
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(235)))), ((int)(((byte)(220)))));
             this.ClientSize = new System.Drawing.Size(1455, 860);
+            this.Controls.Add(this.panel20);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.Sidepanel1);
@@ -903,24 +1094,20 @@ namespace ProjectDemon
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SchoolProject";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.Sidepanel1.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -929,20 +1116,34 @@ namespace ProjectDemon
             this.panel9.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1008,6 +1209,22 @@ namespace ProjectDemon
         private Label label19;
         private Label label18;
         private Label label20;
+        private Panel panel20;
+        private Panel panel21;
+        private Panel panel22;
+        private PictureBox pictureBox10;
+        private Label label21;
+        private Label label22;
+        private Panel panel26;
+        private Panel panel25;
+        private Panel panel24;
+        private Panel panel23;
+        private Panel panel28;
+        private Panel panel27;
+        private Label label23;
+        private Label label24;
+        private Label label25;
+        private PictureBox pictureBox11;
     }
 }
 
